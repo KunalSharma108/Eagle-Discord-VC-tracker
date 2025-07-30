@@ -41,6 +41,18 @@ npm run build
 npm start
 ```
 
+### 5. Set the Voice Channel for activity tracking  
+Use the following command to set the VC where the bot should monitor activity:  
+```
+/set-vc [VC Name]
+```
+
+### 6. Make the bot join the selected Voice Channel  
+Once you've set the VC, ask the bot to join it using:  
+```
+/join-vc
+```
+
 ## 📄 Environment Variables
 
 Create a `.env` file in the root directory (same place as `package.json`) and fill it like this:
