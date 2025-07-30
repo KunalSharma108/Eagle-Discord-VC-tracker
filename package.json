@@ -1,0 +1,26 @@
+{
+  "name": "eagle",
+  "version": "1.0.0",
+  "description": "A discord bot that keeps an eye on users' acitvities",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/src/index.js",
+    "testDeploy": "node dist/src/test-deploy.js",
+    "globalDeploy": "node dist/src/global-deploy.js"
+  },
+  "author": "Kunal",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.15.18",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.18.0",
+    "dayjs": "^1.11.13",
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.5.0",
+    "firebase-admin": "^13.4.0"
+  }
+}
